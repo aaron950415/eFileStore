@@ -1,8 +1,14 @@
 import React from "react"
+import  UpLoader from "../components/Uploader";
+import Tips from "../components/Tips"
 function Home(){
+
     return (
         <>
-        <h1>Home</h1>
+
+             <Tips>Please Login first, then upload !!!</Tips>
+
+        <UpLoader />
         </>
 
     );
